@@ -1,2 +1,5 @@
-
-//r
+what is a hash function:
+hasing is the process of converting an input of any length into a fixed size string of text using a mathematical function:
+this mean that any text, no matter how long it is, can be converted into an array of numbers and letters throught algorithm(like 38ere4fe32fe5utjwir2r3)
+input + hash function = hash value(output)
+for a input the hash value is always the same one and for two different inputs the hash value are always different.
