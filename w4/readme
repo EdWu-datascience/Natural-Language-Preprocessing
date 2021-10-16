@@ -3,3 +3,8 @@ hasing is the process of converting an input of any length into a fixed size str
 this mean that any text, no matter how long it is, can be converted into an array of numbers and letters throught algorithm(like 38ere4fe32fe5utjwir2r3)
 input + hash function = hash value(output)
 for a input the hash value is always the same one and for two different inputs the hash value are always different.
+hash table:
+for instance: we now have a list of text = ['tim','ed','sid','john']
+we get the ASCII of each letter in each name and sum them together and then mode by size of array: index number = sum ASCII codes Mod size of array
+collisions in hash table: it's common that different name got the same index number. in this case, we first see if the place is empty, we move to right if not empty
+another solution to this problem:if this place is not empty, we use a pointer that point to our new data(just like each place has a listnode)
